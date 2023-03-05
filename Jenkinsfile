@@ -6,8 +6,9 @@ pipeline {
     stages {
         stage('Build') { 
             steps { 
-                sh '''
-                    echo "Added echo command"
+                // sh '''
+                bat '''
+                    // echo "Added echo command"
                     mvn clean package
                 '''
             }
