@@ -8,7 +8,8 @@ pipeline {
             steps { 
                 // sh '''
                 bat '''
-                    // echo "Added echo command"
+                    echo "Added echo command"
+                    echo "to check webhook"
                     mvn clean package
                 '''
             }
