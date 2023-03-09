@@ -6,8 +6,9 @@
     <artifactId>TomcatMavenApp</artifactId>
 <!--      <version>2.0-SNAPSHOT</version> -->
     <version>2.0</version>
-<!--     <packaging>war</packaging>    -->
-
+    <packaging>war</packaging>   
+    <!--     <packaging>war/jar</packaging>    -->
+            <!--  if no packing tag, take it as jar..        -->
     <name>TomcatMavenApp</name>
 
     <properties>
